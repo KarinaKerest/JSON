@@ -1,20 +1,30 @@
-
 {
-  "title": "Unable to login",
-  "description": "I am unable to login to the application using my correct credentials. After entering my username and password, the login page just reloads without any error message or indication that I have logged in. This issue is occurring consistently and preventing me from using the application.",
-  "steps_to_reproduce": [
-    "Navigate to the login page",
-    "Enter username and password",
-    "Click on the login button",
-    "Page reloads without logging me in"
-  ],
-  "expected_result": "After entering my correct credentials and clicking on the login button, I should be taken to the main page of the application and be logged in.",
-  "actual_result": "The page just reloads without logging me in, with no error message or indication that I have logged in.",
-  "priority": "High",
-  "severity": "Critical",
-  "environment": {
-    "browser": "Chrome",
-    "operating_system": "Windows 10",
-    "device": "Desktop"
-  }
+    "id": "0016",
+    "project": "Capital.com",
+    "datesubmitted": "2/12/2023",
+    "lastupdate": "2/13/2023",
+    "reporter": "@KeriKerest",
+    "assignedto": "Team lead",
+    "priority": "Low",
+    "severity": "Minor",
+    "reproducibility": "Always",
+    "status": "New",
+    "resolution": "Open",
+    "platform": "Google Chrome (109.0.5414.120)",
+    "os": "Windows 10 Pro",
+    "osversion": "(10.0.19044.2486)",
+    "summary": "The button to register with \"google account\" is not displayed on the registration form.",
+    "description": "When you want  \"Add to favourite\" on the https://capital.com/btc-usd-chart.",
+    "preconditions": "1. The page https://capital.com/btc-usd-chart is opened.",
+    "stepstoreproduce": [
+        "Click on the button \"Add to favourite\";",
+        "\"Sing up\" form is opened."
+    ],
+    "actualresult": "The icon \"google account\" not showing on the button.",
+    "expectedresult": "The icon \"google account\" should be displayed on the button.",
+    "additionalinformation": "AddBlocker is blocked this icon.",
+    "attachedfiles": [
+        "video",
+        "screenshot"
+    ]
 }
