@@ -1,0 +1,30 @@
+{
+    "id": "0016",
+    "project": "Capital.com",
+    "datesubmitted": "2/12/2023",
+    "lastupdate": "2/13/2023",
+    "reporter": "@KeriKerest",
+    "assignedto": "Team lead",
+    "priority": "Low",
+    "severity": "Minor",
+    "reproducibility": "Always",
+    "status": "New",
+    "resolution": "Open",
+    "platform": "Google Chrome (109.0.5414.120)",
+    "os": "Windows 10 Pro",
+    "osversion": "(10.0.19044.2486)",
+    "summary": "The button to register with \"google account\" is not displayed on the registration form.",
+    "description": "When you want  \"Add to favourite\" on the https://capital.com/btc-usd-chart.",
+    "preconditions": "1. The page https://capital.com/btc-usd-chart is opened.",
+    "stepstoreproduce": [
+        "Click on the button \"Add to favourite\";",
+        "\"Sing up\" form is opened."
+    ],
+    "actualresult": "The icon \"google account\" not showing on the button.",
+    "expectedresult": "The icon \"google account\" should be displayed on the button.",
+    "additionalinformation": "AddBlocker is blocked this icon.",
+    "attachedfiles": [
+        "video",
+        "screenshot"
+    ]
+}
